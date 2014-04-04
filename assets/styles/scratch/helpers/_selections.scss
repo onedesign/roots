@@ -1,0 +1,13 @@
+ // Remove text-shadow in selection highlight: h5bp.com/i
+ // These selection rule sets have to be separate.
+ // Customize the background color to match your design.
+
+::-moz-selection {
+  background: map-get($colors, selection);
+  text-shadow: none;
+}
+
+::selection {
+  background: map-get($colors, selection);
+  text-shadow: none;
+}

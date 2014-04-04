@@ -1,0 +1,20 @@
+// Base
+body{
+	font-size: rem($doc-font-size);
+	line-height: $doc-line-height;
+	color: color(text);
+	font-family: type(body);
+}
+
+// Outputs .h1 - .h6 classes
+$sizes: map-keys($type-sizes);
+@each $size in $sizes {
+	.#{$size} {
+		@include ts($size);
+	}
+}
+
+// helpers
+.secondary-type {
+	font-family: type(secondary);
+}

@@ -1,0 +1,27 @@
+// Majority of this is taken from inuitcss
+
+.nav {
+  list-style: none;
+  margin-left: 0;
+  @include clearfix(true);
+
+  > li {
+
+    &,
+    > a {
+      display: inline-block;
+      *display: inline;
+      zoom: 1;
+    }
+  }
+}
+
+.nav--stacked {
+  li {
+    display: list-item;
+
+    > a {
+      display: block;
+    }
+  }
+}

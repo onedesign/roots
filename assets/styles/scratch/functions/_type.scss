@@ -1,0 +1,3 @@
+@function type($tf) {
+  @return map-get($typestacks, $tf);
+}

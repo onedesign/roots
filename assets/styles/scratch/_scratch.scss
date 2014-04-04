@@ -1,0 +1,35 @@
+// -------------------------------------------------------------------------
+//
+// Imports for scratch
+//
+// -------------------------------------------------------------------------
+
+// Compass is first
+@import "compass";
+
+// Then compass plugins
+@import "singularitygs";
+@import "toolkit";
+@import "toolkit/kickstart";
+@import "modular-scale";
+
+// Then set up the defaults
+@import "defaults";
+
+// Your chosen reset
+// Only one will be loaded based on your settings
+@import "vendor/*";
+
+// Next we import the core stuff
+
+// Functions
+@import "functions/*";
+
+// Helpers
+@import "helpers/*";
+
+// Base styles
+@import "base/*";
+
+// Finally our objects
+@import "objects/*";

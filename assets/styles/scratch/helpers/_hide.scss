@@ -1,0 +1,43 @@
+
+// Hide from both screenreaders and browsers: h5bp.com/u
+
+// Accepts:
+// No parameter = display none hiding
+// accessible = accessible hiding
+// accessible-focus = accessible hide with focus
+// visual-only = only hiding visually
+
+@mixin hide ($version: default) {
+  @if $version == default {
+    display: none !important;
+    visibility: hidden;  
+  }
+  
+  @else if $version == accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  } 
+
+  @else if $version == accessible-focus {
+    @include hide(accessible);
+    &.focusable:active,
+    &.focusable:focus {
+      clip: auto;
+      height: auto;
+      margin: 0;
+      overflow: visible;
+      position: static;
+      width: auto;
+    }
+  } 
+  
+  @else if $version == visual-only {
+    visibility: hidden;
+  }
+}
