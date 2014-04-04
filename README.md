@@ -5,11 +5,49 @@ The [Roots Theme](http://www.rootstheme.com/) plus customizations for use on ODC
 ## Getting going
 Clone the repo into the themes folder of your wordpress install
 
-Run '''bower install''' to grab bower dependencies
-Run '''bundle install''' to grab ruby related dependencies (compass and plugins)
-Run '''npm install''' to grab grunt based dependencies
 
-Run 'grunt' to generate the patternlab for the first time and compile all your files
+```
+bower install
+``` 
+to grab bower dependencies
+
+```
+bundle install
+``` 
+to grab ruby related dependencies (compass and plugins)
+
+```
+npm install
+```
+to grab grunt based dependencies
+
+ 
+```
+grunt
+```
+to generate the patternlab for the first time and compile all your files
+
+## Included Stuff
+
+### [Grunt](http://gruntjs.com/)
+For compiling all your files and generating the pattern lab
+
+### [Bower](http://bower.io/)
+For managing web dependencies (jquery, modernizr, jquery plugins)
+
+### [Modular Scale](https://github.com/Team-Sass/modular-scale)
+For better web typography
+
+### [Team-Sass Toolkit](https://github.com/Team-Sass/toolkit)
+A bunch of useful sass helpers
+
+### [Singularity GS](https://github.com/Team-Sass/Singularity)
+Grids without Limits
+
+### [Sass Globbing](https://github.com/chriseppstein/sass-globbing)
+Becuase writing @import hundreds of times is just ridiculous
+
+Hopefully I'll write something more details soon, that shows what grunt tasks we're using as well as a primer on Singularity.
 
 
 Original Roots doucmentation below
