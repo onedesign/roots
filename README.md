@@ -5,9 +5,9 @@ The [Roots Theme](http://www.rootstheme.com/) plus customizations for use on ODC
 ## Getting going
 Clone the repo into the themes folder of your wordpress install
 
-Run 'bower install' to grab bower dependencies
-Run 'bundle install' to grab ruby related dependencies (compass and plugins)
-Run 'npm install' to grab grunt based dependencies
+Run '''bower install''' to grab bower dependencies
+Run '''bundle install''' to grab ruby related dependencies (compass and plugins)
+Run '''npm install''' to grab grunt based dependencies
 
 Run 'grunt' to generate the patternlab for the first time and compile all your files
 
