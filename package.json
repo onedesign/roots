@@ -1,12 +1,12 @@
 {
-  "name": "scratch",
-  "title": "Scratch",
+  "name": "signal",
+  "title": "signal",
   "version": "0.1.0",
-  "homepage": "https://github.com/onedesign/scratch",
+  "homepage": "https://github.com/onedesign/brightag",
   "author": {
-    "name": "Brian Hanson",
-    "email": "brian@brianhanson.net",
-    "url": "http://www.brianhanson.net"
+    "name": "One Design Company",
+    "email": "dev@ondesigncompany.com",
+    "url": "http://www.onedesigncompany.com"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
